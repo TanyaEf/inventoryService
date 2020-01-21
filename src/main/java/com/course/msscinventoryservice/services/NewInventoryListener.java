@@ -18,7 +18,7 @@ public class NewInventoryListener {
     @JmsListener(destination = JmsConfig.NEW_INVENTORY_QUEUE)
     public void listen(NewInventoryEvent newInventoryEvent) {
         log.debug("Got new Inventory");
-
+//TODO add records to db
         beerInventoryRepository.save(BeerInventory.builder()
                 .id(newInventoryEvent.getBeerDto().getUuid())
                 .upc(newInventoryEvent.getBeerDto().getUpc())
