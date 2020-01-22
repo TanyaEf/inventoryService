@@ -1,7 +1,7 @@
 package com.course.msscinventoryservice.web.mappers;
 
 import com.course.msscinventoryservice.domain.BeerInventory;
-import com.course.msscinventoryservice.web.model.BeerInventoryDto;
+import com.course.msscinventoryservice.brewery.model.BeerInventoryDto;
 import org.mapstruct.Mapper;
 
 /**

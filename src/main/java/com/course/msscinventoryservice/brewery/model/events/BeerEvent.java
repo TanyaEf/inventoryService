@@ -1,4 +1,4 @@
-package commn.events;
+package com.course.msscinventoryservice.brewery.model.events;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

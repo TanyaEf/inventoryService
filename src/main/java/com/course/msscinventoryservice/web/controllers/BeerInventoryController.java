@@ -2,7 +2,7 @@ package com.course.msscinventoryservice.web.controllers;
 
 import com.course.msscinventoryservice.repositories.BeerInventoryRepository;
 import com.course.msscinventoryservice.web.mappers.BeerInventoryMapper;
-import com.course.msscinventoryservice.web.model.BeerInventoryDto;
+import com.course.msscinventoryservice.brewery.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

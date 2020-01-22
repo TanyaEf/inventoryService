@@ -1,4 +1,4 @@
-package commn.events;
+package com.course.msscinventoryservice.brewery.model.events;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

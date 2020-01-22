@@ -1,4 +1,4 @@
-package com.course.msscinventoryservice.web.model;
+package com.course.msscinventoryservice.brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

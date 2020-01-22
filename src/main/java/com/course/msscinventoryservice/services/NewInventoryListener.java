@@ -3,7 +3,7 @@ package com.course.msscinventoryservice.services;
 import com.course.msscinventoryservice.config.JmsConfig;
 import com.course.msscinventoryservice.domain.BeerInventory;
 import com.course.msscinventoryservice.repositories.BeerInventoryRepository;
-import commn.events.NewInventoryEvent;
+import com.course.msscinventoryservice.brewery.model.events.NewInventoryEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
